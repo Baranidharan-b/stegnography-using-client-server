@@ -21,7 +21,7 @@ def secure_data(data_to_secure):
     # Implement your data encryption or steganography algorithm here
     return data_to_secure
 
-# Server-side functions
+# Server-side functionss
 def receive_image(server_socket):
     image_data = server_socket.recv(4096)
     return image_data
